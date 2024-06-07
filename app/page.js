@@ -21,7 +21,11 @@ export default function Home() {
   return (
     <div>
       <h1>Aula de publicação</h1>
-      <p> Publicar um site na Versel usando NextJS e no Github Pages com arquivos estáticos </p>
+      <p> Publicar um site na Vercel usando NextJS e no Github Pages com arquivos estáticos </p>
+
+      <hr/>
+      <p style={{backgroundColor: "yellow"}} >Este é uma nova versão do meu site</p>
+      <hr/>
 
       <Link href="teste">Ir para página de testes</Link>
 
